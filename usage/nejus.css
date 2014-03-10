@@ -1,0 +1,67 @@
+
+/*	TAG's
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+* { outline: none; }
+body{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #555;
+	margin: 0;
+	padding: 0;
+}
+a{ text-decoration: none; }
+
+/*	CARRIER
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.carrier {
+	display: block;	
+	background-color: #ff0000;
+	width: 120px;
+	height: 120px;
+}
+.carrier div{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.carrier label{
+	background: url(pencil.png) no-repeat -340px -360px;
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	height: 120px;
+	opacity: 0;
+	transition: opacity .4s;
+}
+.carrier .loading{
+	display: block;
+	position: absolute;
+	border: 5px solid #fff;
+	margin: 39px 0 0 39px;
+}
+.carrier div form iframe{ position: absolute; }
+.carrier div span{
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	z-index: 70;
+	opacity: 0;
+	border: none;
+	pointer-events: none;	
+	padding: 60px 10px 0 10px;
+	width: 100px;
+	height: 60px;
+}
+.carrier div:hover label{
+	opacity: 1;
+	transition: opacity .4s;	
+}
+.carrier div:hover span{
+	opacity: 1;
+	transition: opacity .4s;	
+}
+.carrier .pic{ margin-bottom: 20px; }
+
