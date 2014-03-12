@@ -2,9 +2,7 @@
 
 ##### File Input Upload And Handling.
 **Carrier.js**  s a light weight JavaScript/PHP Class that handle the file uploading easy and asynchronously.<br />
-*Requiere JQuery.* <br />
-
-*Version 1.0*
+*Version 1.0 - Requiere JQuery.* <br />
 
 Running Example Here: http://nejus.com/open/Carriers.js/
 
