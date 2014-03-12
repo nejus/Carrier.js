@@ -53,7 +53,6 @@ var carrier = new Carrier({
 - Firefox 4+
 - IE 10+
 - Safari 6+
--
 
 #### License
 
