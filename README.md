@@ -23,7 +23,7 @@ Running Example Here: http://nejus.com/open/Carriers.js/
 - onStart: On start event.
 - onComplete: On complete event.
 
-** Basic implementation:**
+**Basic implementation:**
 
 After JQuery loads... in the JS:
 	
