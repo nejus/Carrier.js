@@ -6,9 +6,24 @@
 
 Running Example Here: http://nejus.com/open/Carriers.js/
 
+## Main features
+
+- Hide the horrendous default file input
+- Allow multiple instances.
+- Clean and simple
+- Easy Setup Light Weight
+
+
 #### Usage
 
-**A basic implementation:**
+**JS Properties**
+- dom: Wich dom object should i use to setup.
+- path: Where are the carrier folder.
+- uploadto: Folder where i should upload the files, it must be relative to carrier path.
+- onStart: On start event.
+- onComplete: On complete event.
+
+** Basic implementation:**
 
 After JQuery loads... in the JS:
 	
@@ -21,7 +36,7 @@ var carrier = new Carrier({
     onComplete:function(e){}
 });
 ```
-... And in the HTM:
+... And in the HTML:
 
 ```html
 <div id="picture" class="carrier">
@@ -31,6 +46,14 @@ var carrier = new Carrier({
 	<img src="" class="pic">
 </div>
 ```   
+
+## Browser support
+
+- Chrome 7+
+- Firefox 4+
+- IE 10+
+- Safari 6+
+-
 
 #### License
 
