@@ -1,24 +1,35 @@
-Carrier - File Input Upload And Handling.
-==================================================
+# Carrier.js
 
-Usage
--------------
+## File Input Upload And Handling.
+
+*Version 1.0*
+
+Carrier.js is a light weight JavaScript Class that handle the file uploading easy and asynchronously.
+Requiere JQuery, [id]: <http://nejus.com/open/Carriers.js/>  "Running Example Here"
+
+### Usage
 
 A basic implementation:
+After JQuery loads... in the JS:
+	
+```js
+var carrier = new Carrier({
+    dom:'#picture',
+    path:'carrier/', 
+    uploadto:'upload/',
+    onStart:function(){}, 
+    onComplete:function(e){}
+});
+```
+... And in the HTM:
 
-    var carrier = new Carrier({
-        dom:'#picture',
-        path:'carrier/', 
-        uploadto:'upload/',
-        onStart:function(){}, 
-        onComplete:function(e){}
-    });
-    
-    <div id="picture" class="carrier">
-		<div>
-			<span>BROWSE IMAGE</span>
-		</div>
-		<img src="" class="pic">
+```html
+<div id="picture" class="carrier">
+	<div>
+		<span>BROWSE IMAGE</span>
 	</div>
+	<img src="" class="pic">
+</div>
+```   
     
 Inlude example at source CODE.
